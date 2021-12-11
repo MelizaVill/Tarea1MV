@@ -28,5 +28,6 @@ Ejercicio 1.10.3 Plant-Pollinator Networks, página 52, en el texto:
 cd Saavedra2013
 3. Finalmente ejecutar el siguiente código en git bush
 for file in $(ls *.txt); do wc -l $file; head -n1 $file | grep -o " " | wc -l; done
-##### Se obtienen todos los valores de fila y columna para los 59 archivos .txt
 # Resultado
+##### Se obtienen todos los valores de fila y columna para los 59 archivos .txt
+script <netsize_all.sh>
