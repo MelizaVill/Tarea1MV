@@ -23,3 +23,10 @@ for file in $(ls *.txt); do wc -l $file; head -n1 $file | grep -o " " | wc -l; d
 # Resultado
 ##### Se obtienen todos los valores de fila y columna para los 59 archivos .txt
 script <netsize_all.sh>
+### Parte 3 de la tarea
+<parte 3>
+##### Which file has the largest number of rows? Which has the largest
+number of columns?
+#######Analisis en el resultado anterior 
+* Mayor numero de filas n58 con 678 
+* Mayor numero de columnas n56 con 207
