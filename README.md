@@ -10,7 +10,7 @@ Ejercicio 1.10.3 Plant-Pollinator Networks, página 52, en el texto:
 # Resolucion del ejercicio
 ### Parte 1 de la tarea
 script <netsize.sh>
-### Se obtiene el resultado:
+###### Se obtiene el resultado de la parte 1 :
  El numero de columnas es:80
  El numero de filas es: 97
  ### Parte 2 de la tarea
@@ -20,13 +20,14 @@ script <netsize.sh>
 cd Saavedra2013
 3. Finalmente ejecutar el siguiente código en git bush
 for file in $(ls *.txt); do wc -l $file; head -n1 $file | grep -o " " | wc -l; done
-# Resultado
-##### Se obtienen todos los valores de fila y columna para los 59 archivos .txt
+###### Resultado de la parte 2
+######## Se obtienen todos los valores de fila y columna para los 59 archivos .txt
 script <netsize_all.sh>
 ### Parte 3 de la tarea
 <parte 3>
 ##### Which file has the largest number of rows? Which has the largest
 number of columns?
 #######Analisis en el resultado anterior 
+### Resultado final
 * Mayor numero de filas n58 con 678 
 * Mayor numero de columnas n56 con 207
